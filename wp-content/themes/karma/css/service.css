@@ -526,6 +526,7 @@ margin: 0px;
  order: 1;
  width: 40%;
  justify-content: flex-start !important;
+ text-transform: uppercase;
 }
 
 .vert-middle { 

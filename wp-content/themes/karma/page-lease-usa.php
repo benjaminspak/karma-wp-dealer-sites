@@ -1,6 +1,6 @@
 <?php
 	/*
-		Template Name: Lease Update Template
+		Template Name: Lease Page USA Template
 	*/
 get_header(); ?>
 
@@ -15,27 +15,9 @@ get_header(); ?>
 </div>
 
 <!-- START Lease Page Container -->
-<div class="lease-section-position-container">
-    
-    <!-- START Country Selection Overlay -->
-    <div id="country-selection-overlay">
-        <div class="country-selection-overlay_content">
-            <div class="country-selection-overlay_header">
-                <h2>Select your region to continue</h2>
-                <img width="100" class="country-gradientline" src="./wp-content/themes/karma/img/icons/GradientLine.png">
-            </div>
-            <div class="country-selection-overlay_button_row">
-                <div class="country-selection-overlay_button_USA">
-                    <span>United States</span>
-                </div>
-                <div class="country-selection-overlay_button_CAN">
-                    <span>Canada</span>
-                </div>
-            </div><!-- Close Overlay Button Row -->
-        </div>
-    </div> <!-- END Country Selection Overlay -->
-
+<div class="lease-section-position-container">  
     <div class="lease-section-style-container">
+        
         <!-- START Lease Section -->
         <section class="bg-color leasing-page-2000px-max-width">
             <div class="leasing-page-container"><!-- START container-->
@@ -50,7 +32,7 @@ get_header(); ?>
                 <div class="price-car-row">
                     <div class="car-price-col">
                         <div class="price-per-month">
-                            <p><strong>$<span class="cad-pricing-toggle">CAD </span>1,299/mo*</strong></p>
+                            <p><strong>$1,299/mo*</strong></p>
                         </div>
                         <div class="tax-36-month">
                             <p>+tax/36 mos.</p>
@@ -67,10 +49,10 @@ get_header(); ?>
                 <div class="price-table-row hide-on-mobile">
                     <div class="monthly-payment">
                         <div class="monthly-table-title">Monthly Payment</div>
-                        <div class="price-table-cell">$<span class="cad-pricing-toggle">CAD </span>1,399</div>
-                        <div class="price-table-cell"><strong>$<span class="cad-pricing-toggle">CAD </span>1,299</strong></div>
-                        <div class="price-table-cell">$<span class="cad-pricing-toggle">CAD </span>1,199</div>
-                        <div class="price-table-cell">$<span class="cad-pricing-toggle">CAD </span>1,099</div>
+                        <div class="price-table-cell">$1,399/mo</div>
+                        <div class="price-table-cell">$1,299/mo</div>
+                        <div class="price-table-cell">$1,199/mo</div>
+                        <div class="price-table-cell">$1,099/mo</div>
                     </div><!-- CLOSE Monthly Payment -->
                     <div class="leasing-terms">
                         <div class="table-title">Leasing Term (mos)</div>
@@ -84,7 +66,7 @@ get_header(); ?>
                         <div class="price-table-cell">10,000</div>
                         <div class="price-table-cell"><strong>10,000</strong></div>
                         <div class="price-table-cell">10,000</div>
-                        <div class="price-table-cell"> 10,000</div>
+                        <div class="price-table-cell">10,000</div>
                     </div><!-- CLOSE Mileage -->
                     <div class="apr">
                         <div class="apr-table-title">APR %</div>
@@ -103,19 +85,19 @@ get_header(); ?>
                     <th class="mobile-price-table-title">Leasing Term (mos)</th>
                     </tr>
                     <tr class="mobile-price-table-row">
-                    <td>$<span class="cad-pricing-toggle">CAD </span>1,399</td>
+                    <td>$1,399/mo</td>
                     <td>24</td>
                     </tr>
                     <tr class="mobile-price-table-row">
-                        <td>$<span class="cad-pricing-toggle">CAD </span>1,299</td>
+                        <td>$1,299/mo</td>
                         <td>36</td>
                     </tr>
                     <tr class="mobile-price-table-row">
-                        <td>$<span class="cad-pricing-toggle">CAD </span>1,199</td>
+                        <td>$1,199/mo</td>
                         <td>48</td>
                     </tr>
                     <tr class="mobile-price-table-row">
-                        <td>$<span class="cad-pricing-toggle">CAD </span>1,099</td>
+                        <td>$1,099/mo</td>
                         <td>60</td>
                     </tr>
                     <tr class="mobile-price-table-row">
@@ -144,40 +126,13 @@ get_header(); ?>
             </div><!-- END container-->
         </section><!-- END Lease Section -->
     </div><!-- END lease-section-style-container -->
-    <div class="disclaimer-table-row"><!-- START Disclaimer Row -->
-        <p class="">*MSRP $<span class="cad-pricing-toggle">CAD </span>150,800. Min Down Payment $5,000 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate</p>
+        <div class="disclaimer-table-row"><!-- START Disclaimer Row -->
+        <p>*Closed end lease with 0% interest. Available for qualified customers with above average Tier 1 credit as approved by Karma Automotive Financial Services. Not all applicants will qualify. Cash due at signing includes minimum $5,000 down payment, $495 application fee, first month’s lease payment, tax, title, license and/or registration fees. Monthly payments are based on a MSRP of $131,400 (includes destination fee), $10,000 manufacture credit, $7,500 Federal tax credit assigned to lessor, and $5,000 down payment. Actual MSRP may vary. Lower monthly payments available with higher down payment.  No security deposit based on 10,000 miles per year and $0.25/mile excess mileage charge. Lessee is responsible for insurance, maintenance and repairs, and excess wear and tear as defined in the lease contract. Option to purchase at lease end for an amount to be determined at lease signing. Color shown may not be available. For details on vehicle specifications, standard features and current availability of equipment in your area, please contact your Karma Automotive dealer. Offer valid only at authorized Karma Automotive dealers through March 31st, 2018.</p>
     </div><!-- END Disclaimer Row -->
     <div class="button-row">
         <a href="/drive/"><div class="lease-page-button">Ready to Drive</div></a>
     </div>
 </div><!-- END Lease Section Position Container -->
-
-<!-- START Overlay Script -->
-    <script>
-    // Get the modal
-    var modal = document.getElementById('country-selection-overlay');
-    var hide = document.getElementsByClassName('cad-pricing-toggle');
-
-    // Get the <span> element that closes the modal
-    var usa = document.getElementsByClassName('country-selection-overlay_button_USA')[0];
-    var can = document.getElementsByClassName('country-selection-overlay_button_CAN')[0];
-
-    // When the user clicks on the button it closes the overlay
-    usa.onclick = function() {
-        var i;
-            for (i = 0; i < hide.length; i++) {
-            hide[i].style.display = "none";
-            };
-        modal.style.display = "none";            
-    }
-
-    can.onclick = function() {
-        modal.style.display = "none";
-    }
-
-    </script>
-
-<!-- END Overlay Script -->
 
 <?php include(locate_template('template_part/map.php')); ?>
 

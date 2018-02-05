@@ -4,7 +4,7 @@
 	*/
 get_header(); ?>
 
-	<div class="contactPageMain pageCenter">
+	<div class="contactPageMain pageCenter service-page-width-fix">
 <?php while(have_posts()) {the_post(); ?>
 <div class="titleArea">
     <div class="title1"><h2><?php the_title(); ?></h2></div>
